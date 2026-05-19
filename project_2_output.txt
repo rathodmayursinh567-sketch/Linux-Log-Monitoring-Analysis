@@ -1,0 +1,34 @@
+May  8 12:28:58 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur/practice ; USER=root ; COMMAND=/usr/bin/apt update
+May  8 12:28:58 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  8 12:34:04 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  8 12:51:43 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/bin/nano /etc/resolv.conf
+May  8 12:51:43 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  8 12:52:35 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  8 13:26:01 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/bin/apt update
+May  8 13:26:01 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  8 13:28:46 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  8 13:29:39 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/bin/apt install wireshark -y
+May  8 13:29:39 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  8 13:34:51 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  8 13:45:27 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/sbin/dpkg-reconfigure wireshark-common
+May  8 13:45:27 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  8 13:45:31 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  8 13:46:17 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/sbin/usermod -aG wireshark mayur
+May  8 13:46:17 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  8 13:46:17 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  8 13:46:28 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/sbin/reboot
+May  8 13:46:28 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  9 02:58:51 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sudo auth.log
+May  9 02:58:51 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  9 02:58:51 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  9 02:59:41 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep failed auth.log
+May  9 02:59:41 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  9 02:59:41 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  9 03:00:49 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/tail -f auth.log
+May  9 03:00:49 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  9 03:02:53 mayur-virtual-machine sudo:    mayur : TTY=pts/2 ; PWD=/home/mayur ; USER=root ; COMMAND=/usr/bin/apt
+May  9 03:02:53 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+May  9 03:02:53 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  9 03:03:21 mayur-virtual-machine sudo: pam_unix(sudo:session): session closed for user root
+May  9 03:24:11 mayur-virtual-machine sudo:    mayur : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/usr/bin/grep sudo auth.log
+May  9 03:24:11 mayur-virtual-machine sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
